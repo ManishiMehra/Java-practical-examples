@@ -18,7 +18,17 @@
 *.zip
 *.tar.gz
 *.rar
+*.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore the 'build' folder and everything inside it
+build/
+
+# Ignore the 'temp' folder located anywhere in the repo
+**/temp/
+
+
+**/.idea/
